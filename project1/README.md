@@ -57,6 +57,20 @@ uv run main.py
 Welcome! I'm your AI assistant. How can I help you today?
 ```
 Type your message and get streaming responses.
+
+### 🧪 Quick Test Prompt
+After setup, run:
+```bash
+uv run main.py
+```
+Ask anything:
+```bash
+What's the capital of Japan?
+```
+It should respond with a streamed answer like:
+```bash
+Assistant: Tokyo
+```
 To quit, type:
 ```bash
 quit
@@ -110,18 +124,3 @@ if __name__ == "__main__":
 ✅ The .env file is required and must include a valid OPENAI_API_KEY.
 
 ⚠️ The assistant uses uv run, not standard Python scripts like python main.py.
-
-### 🧪 Quick Test Prompt
-After setup, run:
-```bash
-uv run main.py
-```
-And try typing:
-```bash
-What's the capital of Japan?
-```
-It should respond with a streamed answer like:
-```bash
-Assistant: Tokyo
-```
-Type quit to exit.
